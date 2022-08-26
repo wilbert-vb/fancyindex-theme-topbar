@@ -16,7 +16,7 @@ location / {
 	}
 	
 location /theme {
-	alias /${YOURPATH}/fancyindex-topbar ;
+	alias /${YOURPATH}/fancyindex-theme-topbar ;
 	}
 }
 ```
