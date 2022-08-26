@@ -14,4 +14,9 @@ location / {
 	fancyindex_show_path off ;
 	fancyindex_time_format "%b %d %Y" ;
 	}
+	
+location /theme {
+	alias /${YOURPATH}/fancyindex-topbar ;
+	}
+}
 ```
