@@ -14,3 +14,4 @@ location / {
 	fancyindex_show_path off ;
 	fancyindex_time_format "%b %d %Y" ;
 	}
+...
