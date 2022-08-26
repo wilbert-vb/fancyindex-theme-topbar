@@ -1,8 +1,7 @@
 # fancyindex-theme-topbar
 Add the following location to your Nginx server config:
-
+...
 location / {
-
 	fancyindex on ;
 	fancyindex_exact_size off ;
 	fancyindex_localtime on ;
