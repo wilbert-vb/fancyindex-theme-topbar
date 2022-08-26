@@ -1,6 +1,6 @@
 # fancyindex-theme-topbar
 Add the following location to your Nginx server config:
-...
+```
 location / {
 	fancyindex on ;
 	fancyindex_exact_size off ;
@@ -14,4 +14,4 @@ location / {
 	fancyindex_show_path off ;
 	fancyindex_time_format "%b %d %Y" ;
 	}
-...
+```
